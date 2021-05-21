@@ -10,7 +10,7 @@ This template is based on the [Pure Minimalistic Theme](https://github.com/kai-t
 ## Required Packages
 
 ```bash
-beamer textpos babel biblatex inputenc csquotes xpatch tikz pgfplots silence appendixnumberbeamer helvet fira fontaxes mwe noto
+beamer textpos babel biblatex inputenc csquotes xpatch tikz pgfplots silence appendixnumberbeamer fira fontaxes mwe noto
 ```
 
 ## Plots
