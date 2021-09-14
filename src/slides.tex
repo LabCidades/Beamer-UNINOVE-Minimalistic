@@ -1,63 +1,3 @@
-% Packages
-% sudo tlmgr install silence appendixnumberbeamer fira fontaxes mwe noto csquotes babel helvet
-%--- Preamble ---------------------------------------------------------%
-% Load LaTeX packages
-\documentclass[aspectratio=169]{beamer}                    % supports floating text in any location
-\usetheme[darkmode]{pureminimalistic}
-%\usetheme[lightmode]{pureminimalistic}
-\graphicspath{{logos/}}
-
-\usepackage[utf8]{inputenc}
-\usepackage{csquotes,xpatch}% recommended
-%\usepackage[english]{babel}
-%\usepackage[american]{babel}
-\usepackage[brazil]{babel}
-\babelprovide[import, main]{portuguese}
-\babelprovide[import]{english}
-\usepackage{tikz}
-
-% \renewcommand{\pageword}{}
-% \renewcommand{\logoheader}{\vspace{1.5em}}
-
-\usepackage[
-%    natbib=true,
-    backend=biber,
-%    style=abnt,
-%    style=authoryear-comp,
-%    style=authoryear,
-    style=ieee,
-%    style=acm,
-%    style=apalike,
-%    style=siam,
-%    style=ieeetr,
-%    style=plain,
-    doi=true,
-    eprint=false,
-    hyperref=true]
-    {biblatex}
-\addbibresource{demo_bib.bib}
-
-%% this makes it possible to add backup slides, without counting them
-\usepackage{appendixnumberbeamer}
-\renewcommand{\appendixname}{\texorpdfstring{\translate{appendix}}{appendix}}
-
-% logos
-
-% footer page
-\renewcommand{\pageword}{Página}
-
-% Math Font Default (Fira is strange)
-\renewcommand\mathfamilydefault{\rmdefault}
-
-% if loaded after begin{document} a warning will appear: "pdfauthor already used"
-\title[short title]{This is the normal length of a research paper:
-always longer than you would expect}
-\author{Fulano de Tal \\
-\texttt{fulano@uni9.pro.br}}
-\institute{Universidade Nove de Julho - UNINOVE}
-\date{\today}
-
-\begin{document}
 % has to be loaded outside of a frame to work!
 \maketitle
 
@@ -320,7 +260,7 @@ always longer than you would expect}
 \begin{frame}{Citations}
     I've also changed the bibliography options to be minimalistic:
 
-    Just showing a simple \texttt{\textbackslash{}cite} \cite{AlexNet}
+    Just showing a simple \texttt{\textbackslash{}citep} \citep{AlexNet}
     \vfill
     \printbibliography
 \end{frame}
@@ -346,5 +286,3 @@ always longer than you would expect}
               for the backup slides.
     \end{itemize}
 \end{frame}
-
-\end{document}

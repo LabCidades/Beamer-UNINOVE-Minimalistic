@@ -290,3 +290,6 @@ TSWLatexianTemp*
 
 # Mac Annoying Stuff
 .DS_Storee
+
+# Tectonic
+build/
