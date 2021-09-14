@@ -1,9 +1,9 @@
 [doc]
-name = 'Slides'
+name = 'slides'
 bundle = 'https://ttassets.z13.web.core.windows.net/tlextras-2020.0r0.tar'
 
 [[output]]
-name = 'default'
+name = 'slides'
 type = 'pdf'
 index = 'slides.tex' 
 shell_escape = false
