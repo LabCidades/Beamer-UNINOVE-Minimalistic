@@ -291,5 +291,8 @@ TSWLatexianTemp*
 # Mac Annoying Stuff
 .DS_Storee
 
+# Examples Folder
+examples/
+
 # Tectonic
 build/
