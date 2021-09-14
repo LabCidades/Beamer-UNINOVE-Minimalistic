@@ -7,8 +7,8 @@ Beamer Minimalistic template for UNINOVE presentations.
 
 This template is based on the [Pure Minimalistic Theme](https://github.com/kai-tub/latex-beamer-pure-minimalistic)
 
-![demo-black](demo_black.png)
-![demo-white](demo_white.png)
+![demo-black](examples/demo_black.png)
+![demo-white](examples/demo_white.png)
 
 ## Required Packages
 

@@ -6,4 +6,4 @@ bundle = 'https://ttassets.z13.web.core.windows.net/tlextras-2020.0r0.tar'
 name = 'default'
 type = 'pdf'
 index = 'slides.tex' 
-shell_escape = true
+shell_escape = false
